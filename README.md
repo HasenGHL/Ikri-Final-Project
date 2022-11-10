@@ -2,7 +2,7 @@
 
 **Rent a car at the comfort of your home.**
 
-**Link: https://ikri.netlify.app**
+**Preview Website Link: https://ikri.netlify.app**
 
 
 
