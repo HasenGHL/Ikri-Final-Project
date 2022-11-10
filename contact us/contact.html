@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="contact.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="icon" href="contact background/Ikri(1).png">
+    <script src="contact.js" defer></script>
+    <script src="https://smtpjs.com/v3/smtp.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <a href="https://ikri.netlify.app/"><img src="contact background/Ikri(1).png" class="logo"></a>
+        <form onsubmit="sendEmail(); reset(); return false;">
+            <h3>Get In Touch With Us</h3>
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Your Email Adress" required>
+            <input type="tel" id="phone" placeholder="Your Phone Number" required>
+            <textarea id="message" rows="4" placeholder="How Can We Help You?"></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </div>
+
+    <footer>
+        <div class="footer-elements">
+        <div class="footer-logo">
+            <a href="https://ikri.netlify.app/"><img src="contact background/Ikri(1).png" width="80px"></a>
+        </div>
+        <div class="location">
+            <p class="footer-titles">Our Locations</p>
+            <p>Keireddine, El Kram, tunis</p>
+            <p>Citée El Manara, Chentech, Gabes</p>
+        </div>
+        <div class="contact-info">
+            <p class="footer-titles">Contact Us</p>
+            <p>+216 50 123 456</p>
+            <p>Ikri@email.com</p>
+        </div>
+        <div class="newsletter">
+            <p class="footer-titles">Subscribe To Our Newsletter</p>
+            <input type="email" class="newsletter-email" placeholder="your@email.com">
+            <button type="submit" class="footer-btn"><span>&#x27f6;</span></button>
+        </div>
+        <div class="social-media">
+            <p class="footer-titles"> Follow Us</p>
+            <div class="footer-icons">
+                <i class="ri-facebook-fill footer-icon"></i>
+                <i class="ri-instagram-fill footer-icon"></i>
+                <i class="ri-linkedin-fill footer-icon"></i>
+            </div>
+        </div>
+        </div>
+    </footer>
+
+
+</body>
+</html>

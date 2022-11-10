@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="icon" href="images/Ikri(1).png">
+    <script src="script.js" defer ></script>
+    <title>Ikri</title>
+</head>
+<body>
+    <div class="hero" id="hero">
+
+
+           <video autoplay loop muted plays-inline class="back-video">
+              <source src="images/fun.mp4" type="video/mp4">
+           </video>
+
+
+        <nav>
+            <img src="images/Ikri(1).png" class="logo">
+            <ul id="ul-menu">
+                <li class="nav__link"><a href="#home">Home</a></li>
+                <li id="li-menu" class="nav__link"><a href="#" id="anchor" onclick="toggleMenu()">Browse</a>
+                    <div class="sub-menu-wrap" id="subMenu">
+                        <div class="sub-menu">
+                            <div class="sub-menu-items">
+                                <a href="#browse-cars" class="sub-menu-link">Book a car</a>
+                                <a href="#calculator" class="sub-menu-link">Calculator</a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="nav__link"><a href="contact us/contact.html">Contact Us</a></li>
+                <li class="nav__link"><a href="sign in form/loginIndex.html">Sign Up</a></li>
+
+                <div class="close-menu-icon" id="nav-close" >
+                    <i class="ri-close-fill"></i>
+                </div>
+            </ul>
+
+            <div class="toggle-menu-icon" id="nav-toggle">
+                <i class="ri-menu-5-line"></i>
+            </div>
+
+            
+        </nav>
+
+
+        <div class="content">
+            <h1>Book a Car Today.</h1>
+            <a href="#browse-cars">Browse</a>
+        </div>
+    </div>
+
+
+    <div class="featured-section" >
+        <div class="card">
+            <div class="item item--1" data-aos="zoom-in" data-aos-delay="500" data-aos-duration="1000" >
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0H24V24H0z"/><path d="M12 1l8.217 1.826c.457.102.783.507.783.976v9.987c0 2.006-1.003 3.88-2.672 4.992L12 23l-6.328-4.219C4.002 17.668 3 15.795 3 13.79V3.802c0-.469.326-.874.783-.976L12 1zm0 2.049L5 4.604v9.185c0 1.337.668 2.586 1.781 3.328L12 20.597l5.219-3.48C18.332 16.375 19 15.127 19 13.79V4.604L12 3.05zm4.452 5.173l1.415 1.414L11.503 16 7.26 11.757l1.414-1.414 2.828 2.828 4.95-4.95z" fill="#6E8B84"/></svg>
+              <span class="quantity"> Best Quality </span>
+              <span class="text text--1"> Services </span>
+            </div>
+            <div class="item item--2" data-aos="zoom-in" data-aos-delay="500" data-aos-duration="700" > 
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"/><path d="M14 14.252v2.09A6 6 0 0 0 6 22l-2-.001a8 8 0 0 1 10-7.748zM12 13c-3.315 0-6-2.685-6-6s2.685-6 6-6 6 2.685 6 6-2.685 6-6 6zm0-2c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm6 6v-3h2v3h3v2h-3v3h-2v-3h-3v-2h3z" fill="#6E8B84"/></svg>
+              <span class="quantity"> 5000+ </span>
+              <span class="text text--2"> Customer </span>
+            </div>
+            <div class="item item--3" data-aos="zoom-in" data-aos-delay="500" data-aos-duration="500" >
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"/><path d="M19 20H5v1a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1v-7.5l-1.243-.31A1 1 0 0 1 0 12.22v-.72a.5.5 0 0 1 .5-.5H2l2.48-5.788A2 2 0 0 1 6.32 4H17.68a2 2 0 0 1 1.838 1.212L22 11h1.5a.5.5 0 0 1 .5.5v.72a1 1 0 0 1-.757.97L22 13.5V21a1 1 0 0 1-1 1h-1a1 1 0 0 1-1-1v-1zm1-2v-5H4v5h16zM5.477 11h13.046a1 1 0 0 0 .928-1.371L18 6H6L4.549 9.629A1 1 0 0 0 5.477 11zM5 14c2.317 0 3.879.755 4.686 2.264a.5.5 0 0 1-.441.736H6a1 1 0 0 1-1-1v-2zm14 0v2a1 1 0 0 1-1 1h-3.245a.5.5 0 0 1-.44-.736C15.12 14.754 16.682 14 19 14z" fill="#6E8B84"/></svg>
+              <span class="quantity"> 150+ </span>
+              <span class="text text--3"> different Cars </span>
+            </div>
+            <div class="item item--4" data-aos="zoom-in" data-aos-delay="500" data-aos-duration="300" >
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"/><path d="M13 16.938V19h5v2H6v-2h5v-2.062A8.001 8.001 0 0 1 4 9V3h16v6a8.001 8.001 0 0 1-7 7.938zM6 5v4a6 6 0 1 0 12 0V5H6zM1 5h2v4H1V5zm20 0h2v4h-2V5z" fill="#6E8B84"/></svg>
+              <span class="quantity"> 2023 </span>
+              <span class="text text--4"> Award Winnig Website </span>
+            </div>
+          </div>
+    </div>
+
+
+
+    <div class="home" id="home">
+        
+        <img class="image-slide active" src="images/pexels-ryan-west-1719648.jpg" alt="">
+        <img class="image-slide" src="images/pexels-jagmeet-singh-1134857.jpg" alt="">
+        <img class="image-slide" src="images/pexels-garvin-st-villier-9452122.jpg" alt="">
+        
+        <div class="content-home active">
+            <h1>Sedans</h1>
+            <p>Choose a sedan for its affordability and excellent fuel economy. Ideal for cruising in the city or on your next road trip.</p>
+            <a href="#sedan">Borwse Sedans</a>
+        </div>
+        <div class="content-home">
+            <h1>Suvs</h1>
+            <p>Take an SUV for its spacious interior, power, and versatility. Perfect for your next family vacation and off-road adventures.</p>
+            <a href="#SUV">Borwse Suvs</a>
+        </div>
+        <div class="content-home">
+            <h1>luxury</h1>
+            <p>Cruise in the best car brands without the bloated prices. Enjoy the enhanced comfort of a luxury rental and arrive in style.</p>
+            <a href="#luxury">Borwse luxury</a>
+        </div>
+
+        <div class="slider-navigation">
+            <div class="nav-btn active"></div>
+            <div class="nav-btn"></div>
+            <div class="nav-btn"></div>
+        </div>
+    </div>
+
+
+
+    <div class="browse-cars" id="browse-cars">
+
+        <header class="header" data-aos="zoom-in" data-aos-delay="500" data-aos-duration="1000" >
+            <h1>Find Your Rental...</h1>
+            <form class="search-container">
+            <input type="text" placeholder="search" id="searchBar" oninput = "Search((this.value).toLowerCase())">
+            <i class="ri-search-line search-icon"></i>
+            </form>
+        </header>
+
+        <div class="cars-options">
+
+            <div class="sedan" id="sedan">
+                <h2>Sedans</h2>
+            <div class="cars">
+                <div class="car" data-aos="zoom-in" data-aos-delay="300" data-aos-duration="800" >
+                    <img src="Cars section/images/Audi-A3_Sedan-2017-1024-01-removebg-preview.png" alt="">
+                    <div class="car-details">
+                    <p class="car-name">Audi A3</p>
+                    <p class="car-price">50$/day</p>
+                    <div class="car-info">
+                        <div class="car-info-one">
+                        <i class="ri-calendar-check-line"></i>
+                        <p>2017</p>
+                        </div>
+                        <div class="car-info-one">
+                        <i class="ri-settings-5-line"></i>
+                        <p>Automatic</p>
+                        </div>
+                        <div class="car-info-one">
+                        <i class="ri-contrast-drop-2-line"></i>
+                        <p>7.5L/100KM</p>
+                        </div>
+                    </div>
+                    <button class="rent-btn">Rent</button>
+                    </div>
+                    </div>
+                
+                <div class="car" data-aos="zoom-in" data-aos-delay="300" data-aos-duration="600" >
+                    <img src="Cars section/images/Chevrolet-Cruze-2019-1024-01-removebg-preview.png" alt="">
+                    <div class="car-details">
+                    <p class="car-name">Chevrolet Cruze</p>
+                    <p class="car-price">50$/day</p>
+                    <div class="car-info">
+                        <div class="car-info-one">
+                        <i class="ri-calendar-check-line"></i>
+                        <p>2019</p>
+                        </div>
+                        <div class="car-info-one">
+                        <i class="ri-settings-5-line"></i>
+                        <p>Manuel</p>
+                        </div>
+                        <div class="car-info-one">
+                        <i class="ri-contrast-drop-2-line"></i>
+                        <p>5.4L/100KM</p>
+                        </div>
+                    </div>
+                    <button class="rent-btn">Rent</button>
+                    </div>
+                    </div>
+                    <div class="car" data-aos="zoom-in" data-aos-delay="300" data-aos-duration="400" >
+                        <img src="Cars section/images/Ford-Focus_Sedan-2019-1024-05-removebg-preview.png" alt="">
+                        <div class="car-details">
+                        <p class="car-name">Ford Focus</p>
+                        <p class="car-price">50$/day</p>
+                        <div class="car-info">
+                            <div class="car-info-one">
+                            <i class="ri-calendar-check-line"></i>
+                            <p>2019</p>
+                            </div>
+                            <div class="car-info-one">
+                            <i class="ri-settings-5-line"></i>
+                            <p>Automatic</p>
+                            </div>
+                            <div class="car-info-one">
+                            <i class="ri-contrast-drop-2-line"></i>
+                            <p>6.8L/100KM</p>
+                            </div>
+                        </div>
+                        <button class="rent-btn">Rent</button>
+                        </div>
+                        </div>
+                        <div class="car" data-aos="zoom-in" data-aos-delay="300" data-aos-duration="200" >
+                            <img src="Cars section/images/Renault-Megane_Sedan-2021-1024-01-removebg-preview.png" alt="">
+                            <div class="car-details">
+                            <p class="car-name">Renault Megan</p>
+                            <p class="car-price">50$/day</p>
+                            <div class="car-info">
+                                <div class="car-info-one">
+                                <i class="ri-calendar-check-line"></i>
+                                <p>2021</p>
+                                </div>
+                                <div class="car-info-one">
+                                <i class="ri-settings-5-line"></i>
+                                <p>Manuel</p>
+                                </div>
+                                <div class="car-info-one">
+                                <i class="ri-contrast-drop-2-line"></i>
+                                <p>5.7L/100KM</p>
+                                </div>
+                            </div>
+                            <button class="rent-btn">Rent</button>
+                            </div>
+                            </div>
+            </div>
+            </div>
+
+            <div class="SUV" id="SUV">
+                <h2>SUV</h2>
+            <div class="cars">
+                <div class="car" data-aos="zoom-in" data-aos-delay="300" data-aos-duration="800" >
+                    <img src="Cars section/images/Honda-CR-V-2023-1024-01-removebg-preview.png" alt="">
+                    <div class="car-details">
+                    <p class="car-name">Honda CR-V</p>
+                    <p class="car-price">65$/day</p>
+                    <div class="car-info">
+                        <div class="car-info-one">
+                        <i class="ri-calendar-check-line"></i>
+                        <p>2023</p>
+                        </div>
+                        <div class="car-info-one">
+                        <i class="ri-settings-5-line"></i>
+                        <p>Automatic</p>
+                        </div>
+                        <div class="car-info-one">
+                        <i class="ri-contrast-drop-2-line"></i>
+                        <p>7.5L/100KM</p>
+                        </div>
+                    </div>
+                    <button class="rent-btn">Rent</button>
+                    </div>
+                    </div>
+                
+                <div class="car" data-aos="zoom-in" data-aos-delay="300" data-aos-duration="600" >
+                    <img src="Cars section/images/Hyundai-Tucson-2021-1024-01-removebg-preview.png" alt="">
+                    <div class="car-details">
+                    <p class="car-name">Hyundai Tuscan</p>
+                    <p class="car-price">65$/day</p>
+                    <div class="car-info">
+                        <div class="car-info-one">
+                        <i class="ri-calendar-check-line"></i>
+                        <p>2021</p>
+                        </div>
+                        <div class="car-info-one">
+                        <i class="ri-settings-5-line"></i>
+                        <p>Automatic</p>
+                        </div>
+                        <div class="car-info-one">
+                        <i class="ri-contrast-drop-2-line"></i>
+                        <p>7.2L/100KM</p>
+                        </div>
+                    </div>
+                    <button class="rent-btn">Rent</button>
+                    </div>
+                    </div>
+                    <div class="car" data-aos="zoom-in" data-aos-delay="300" data-aos-duration="400" >
+                        <img src="Cars section/images/Jeep-Grand_Cherokee_UK_Version-2011-1024-07-removebg-preview.png" alt="">
+                        <div class="car-details">
+                        <p class="car-name">Jeep Grand Cherokee</p>
+                        <p class="car-price">75$/day</p>
+                        <div class="car-info">
+                            <div class="car-info-one">
+                            <i class="ri-calendar-check-line"></i>
+                            <p>2011</p>
+                            </div>
+                            <div class="car-info-one">
+                            <i class="ri-settings-5-line"></i>
+                            <p>Automatic</p>
+                            </div>
+                            <div class="car-info-one">
+                            <i class="ri-contrast-drop-2-line"></i>
+                            <p>8.4L/100KM</p>
+                            </div>
+                        </div>
+                        <button class="rent-btn">Rent</button>
+                        </div>
+                        </div>
+                        <div class="car" data-aos="zoom-in" data-aos-delay="300" data-aos-duration="200" >
+                            <img src="Cars section/images/Renault-Kadjar-2019-1024-01-removebg-preview.png" alt="">
+                            <div class="car-details">
+                            <p class="car-name">Renault Kadjar</p>
+                            <p class="car-price">65$/day</p>
+                            <div class="car-info">
+                                <div class="car-info-one">
+                                <i class="ri-calendar-check-line"></i>
+                                <p>2019</p>
+                                </div>
+                                <div class="car-info-one">
+                                <i class="ri-settings-5-line"></i>
+                                <p>Manuel</p>
+                                </div>
+                                <div class="car-info-one">
+                                <i class="ri-contrast-drop-2-line"></i>
+                                <p>5.7L/100KM</p>
+                                </div>
+                            </div>
+                            <button class="rent-btn">Rent</button>
+                            </div>
+                            </div>
+            </div>
+            </div>
+
+            <div class="luxury" id="luxury">
+                <h2>Luxury</h2>
+            <div class="cars">
+                <div class="car" data-aos="zoom-in" data-aos-delay="300" data-aos-duration="800" >
+                    <img src="Cars section/images/Audi-A8_L-2018-1024-03-removebg-preview.png" alt="">
+                    <div class="car-details">
+                    <p class="car-name">Audi A8L</p>
+                    <p class="car-price">150$/day</p>
+                    <div class="car-info">
+                        <div class="car-info-one">
+                        <i class="ri-calendar-check-line"></i>
+                        <p>2018</p>
+                        </div>
+                        <div class="car-info-one">
+                        <i class="ri-settings-5-line"></i>
+                        <p>Automatic</p>
+                        </div>
+                        <div class="car-info-one">
+                        <i class="ri-contrast-drop-2-line"></i>
+                        <p>8.5L/100KM</p>
+                        </div>
+                    </div>
+                    <button class="rent-btn">Rent</button>
+                    </div>
+                    </div>
+                
+                <div class="car" data-aos="zoom-in" data-aos-delay="300" data-aos-duration="600" >
+                    <img src="Cars section/images/BMW-545e_xDrive_Sedan-2021-1024-01-removebg-preview.png" alt="">
+                    <div class="car-details">
+                    <p class="car-name">BMW 545e xDrive</p>
+                    <p class="car-price">150$/day</p>
+                    <div class="car-info">
+                        <div class="car-info-one">
+                        <i class="ri-calendar-check-line"></i>
+                        <p>2021</p>
+                        </div>
+                        <div class="car-info-one">
+                        <i class="ri-settings-5-line"></i>
+                        <p>Automatic</p>
+                        </div>
+                        <div class="car-info-one">
+                        <i class="ri-contrast-drop-2-line"></i>
+                        <p>8.9L/100KM</p>
+                        </div>
+                    </div>
+                    <button class="rent-btn">Rent</button>
+                    </div>
+                    </div>
+                    <div class="car" data-aos="zoom-in" data-aos-delay="300" data-aos-duration="400" >
+                        <img src="Cars section/images/Lexus-LS-2021-1024-01-removebg-preview.png" alt="">
+                        <div class="car-details">
+                        <p class="car-name">Lexus LS500h</p>
+                        <p class="car-price">150$/day</p>
+                        <div class="car-info">
+                            <div class="car-info-one">
+                            <i class="ri-calendar-check-line"></i>
+                            <p>2021</p>
+                            </div>
+                            <div class="car-info-one">
+                            <i class="ri-settings-5-line"></i>
+                            <p>Automatic</p>
+                            </div>
+                            <div class="car-info-one">
+                            <i class="ri-contrast-drop-2-line"></i>
+                            <p>7.9L/100KM</p>
+                            </div>
+                        </div>
+                        <button class="rent-btn">Rent</button>
+                        </div>
+                        </div>
+                        <div class="car" data-aos="zoom-in" data-aos-delay="300" data-aos-duration="200" >
+                            <img src="Cars section/images/Mercedes-Benz-S-Class-2021-1024-03-removebg-preview.png" alt="">
+                            <div class="car-details">
+                            <p class="car-name">Mercedes S500</p>
+                            <p class="car-price">165$/day</p>
+                            <div class="car-info">
+                                <div class="car-info-one">
+                                <i class="ri-calendar-check-line"></i>
+                                <p>2021</p>
+                                </div>
+                                <div class="car-info-one">
+                                <i class="ri-settings-5-line"></i>
+                                <p>Automatic</p>
+                                </div>
+                                <div class="car-info-one">
+                                <i class="ri-contrast-drop-2-line"></i>
+                                <p>8.9L/100KM</p>
+                                </div>
+                            </div>
+                            <button class="rent-btn">Rent</button>
+                            </div>
+                            </div>
+            </div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <div class="calculator-container" id="calculator" >
+        <div class="container-box">
+            <h3>Calculate how much your estimated payment will be</h3>
+            <div class="budget">
+                <label>Price Per Day:</label>
+                <input type="number" id="budget" placeholder="Exemple: 100$" name="budget">
+            </div>
+            <div class="time">
+                <label>From:</label>
+                <input type="date" id="date-from">
+                <label>To:</label>
+                <input type="date" id="date-to">
+            </div>
+            <div class="result">
+                <p class="equal-sign">=</p>
+                <input type="text" id="result" name="result" placeholder="Result (+5.99$ Fee)" readonly>
+            </div>
+            <button id="btn">Calculate</button>
+        </div>
+    </div>
+    
+
+    <footer>
+        <div class="footer-elements">
+        <div class="footer-logo">
+            <a href="#hero"><img src="images/Ikri(1).png" width="80px"></a>
+        </div>
+        <div class="location">
+            <p class="footer-titles">Our Locations</p>
+            <p>Keireddine, El Kram, tunis</p>
+            <p>Citée El Manara, Chentech, Gabes</p>
+        </div>
+        <div class="contact-info">
+            <p class="footer-titles">Contact Us</p>
+            <p>+216 50 123 456</p>
+            <p>Ikri@email.com</p>
+        </div>
+        <div class="newsletter">
+            <p class="footer-titles">Subscribe To Our Newsletter</p>
+            <input type="email" class="newsletter-email" placeholder="your@email.com">
+            <button type="submit" class="footer-btn"><span>&#x27f6;</span></button>
+        </div>
+        <div class="social-media">
+            <p class="footer-titles"> Follow Us</p>
+            <div class="footer-icons">
+            <i class="ri-facebook-fill footer-icon"></i>
+            <i class="ri-instagram-fill footer-icon"></i>
+            <i class="ri-linkedin-fill footer-icon"></i>
+            </div>
+        </div>
+        </div>
+    </footer>
+
+    <a href="#hero"> 
+    <button class="arrow-btn">
+        <div class="arrow-up"></div>
+    </button>
+    </a>
+
+
+
+
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
+
+</body>
+</html>

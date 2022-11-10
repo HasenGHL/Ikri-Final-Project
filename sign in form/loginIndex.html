@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login/Register Form</title>
+    <link rel="stylesheet" href="loginStyles.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="icon" href="images/Ikri(1).png">
+    <script src="LoginScript.js" defer></script>
+</head>
+<body>
+<div class="hero">
+    <a href="https://ikri.netlify.app/"><img src="images/Ikri(1).png" class="logo"></a>
+<div class="container-all">
+    <div class="form-container sign-in-form">
+        <div class="form-box sign-in-box">
+            <h2>Login</h2>
+            <form action="">
+                <div class="field">
+                    <i class="uil uil-at"></i>
+                    <input type="email" placeholder="Email-ID" required>
+                </div>
+                <div class="field">
+                    <i class="uil uil-lock-alt"></i>
+                    <input class="password-input" type="Password" placeholder="password" required>
+                    <div class="eye-btn"><i class="uil uil-eye-slash"></i></div>
+                </div>
+                <div class="forgot-link">
+                    <a href="">Forgot Password?</a>
+                </div>
+                <input class="submit-btn" type="submit" value="Login">
+            </form>
+            <div class="login-options">
+                <p class="text">Or, Login with...</p>
+                <div class="other-logins">
+                    <a href=""><img src="images/google.png"></a>
+                    <a href=""><img src="images/facebook.png"></a>
+                    <a href=""><img src="images/apple.png"></a>
+                </div>
+            </div>
+        </div>
+        <div class="imgBox sign-in-imgBox">
+            <div class="sliding-link">
+                <p>Don't have an account</p>
+                <span class="sign-up-btn">Sign up</span>
+            </div>
+            <img src="images/undraw_access_account_re_8spm.svg">
+        </div>
+    </div>
+
+
+    <div class="form-container sign-up-form">
+        <div class="imgBox sign-up-imgBox">
+            <div class="sliding-link">
+                <p>Already a member</p>
+                <span class="sign-in-btn">Sign in</span>
+            </div>
+            <img src="images/undraw_secure_login_pdn4.svg">
+        </div>
+        <div class="form-box sign-up-box">
+            <h2>Sign up</h2>
+            <div class="login-options">
+                <div class="other-logins">
+                    <a href=""><img src="images/google.png"></a>
+                    <a href=""><img src="images/facebook.png"></a>
+                    <a href=""><img src="images/apple.png"></a>
+                </div>
+                <p class="text">Or, Sign up with your email...</p>
+            </div> 
+            <form action="">
+                <div class="field">
+                    <i class="uil uil-user"></i>
+                    <input type="text" placeholder="Full name" required>
+                </div>
+                <div class="field">
+                    <i class="uil uil-at"></i>
+                    <input type="email" placeholder="Email-ID" required>
+                </div>
+                <div class="field">
+                    <i class="uil uil-lock-alt"></i>
+                    <input type="password" placeholder="Password" required>
+                </div>
+                <div class="field">
+                    <i class="uil uil-lock-access"></i>
+                    <input type="password" placeholder="Confirm password" required>
+                </div>
+                <input class="submit-btn" type="submit" value="Sign up">
+            </form>
+        </div>
+    </div>
+</div>
+</div>
+
+
+<footer>
+    <div class="footer-elements">
+    <div class="footer-logo">
+        <a href="https://ikri.netlify.app/"><img src="images/Ikri(1).png" width="80px"></a>
+    </div>
+    <div class="location">
+        <p class="footer-titles">Our Locations</p>
+        <p>Keireddine, El Kram, tunis</p>
+        <p>Citée El Manara, Chentech, Gabes</p>
+    </div>
+    <div class="contact-info">
+        <p class="footer-titles">Contact Us</p>
+        <p>+216 50 123 456</p>
+        <p>Ikri@email.com</p>
+    </div>
+    <div class="newsletter">
+        <p class="footer-titles">Subscribe To Our Newsletter</p>
+        <input type="email" class="newsletter-email" placeholder="your@email.com">
+        <button type="submit" class="footer-btn"><span>&#x27f6;</span></button>
+    </div>
+    <div class="social-media">
+        <p class="footer-titles"> Follow Us</p>
+        <div class="footer-icons">
+            <i class="ri-facebook-fill footer-icon"></i>
+            <i class="ri-instagram-fill footer-icon"></i>
+            <i class="ri-linkedin-fill footer-icon"></i>
+        </div>
+    </div>
+    </div>
+</footer>
+
+
+
+</body>
+</html>
