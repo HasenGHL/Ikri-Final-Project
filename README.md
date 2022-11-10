@@ -1,6 +1,9 @@
 # Ikri
 
-Rent a car at the comfort of your home.
+**Rent a car at the comfort of your home.**
+
+## 🛠 Skills Used In The Project
+Javascript, HTML, CSS...
 
 # Screen Shots
 
