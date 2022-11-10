@@ -1,7 +1,6 @@
 # Ikri
 
 **Rent a car at the comfort of your home.**
-
 **Preview Website Link: https://ikri.netlify.app**
 
 
@@ -9,6 +8,9 @@
 ## 🛠 Skills Used In The Project
 **Javascript, HTML, CSS...**
 
+## Acknowledge
+**Animation on scroll**
+**Smooth scroll**
 
 
 # Screen Shots
