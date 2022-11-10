@@ -1,6 +1,7 @@
 # Ikri
 
 **Rent a car at the comfort of your home.**
+
 **Preview Website Link: https://ikri.netlify.app**
 
 
@@ -9,7 +10,9 @@
 **Javascript, HTML, CSS...**
 
 ## Acknowledge
+
 **Animation on scroll**
+
 **Smooth scroll**
 
 
